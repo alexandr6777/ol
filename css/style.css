@@ -1,0 +1,114 @@
+@import url(fonts.css);
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Golos";
+}
+a{
+    text-decoration: none;
+}
+
+/* .header__text{
+    max-width: 1010px;
+} */
+
+.header__title{
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: 700;
+}
+
+
+.header__desc{
+    margin-top: 64px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__descContinue{
+    padding-top: 16px;
+}
+
+.header__alert{
+    display: none;
+}
+
+
+/* ===================================================================== */
+/* MAIN START */
+
+
+.main{
+    background: #F3F6FA;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.main__title{
+     padding-top: 40px;
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 32px;
+     margin-bottom: 24px;
+}
+p
+
+ 
+
+ .main__window{
+    width: 100%;
+    padding: 12px 0;
+ }
+
+.main__labelTitle{
+    font-weight: 400;
+}
+ .main__end{
+    width: 100%;
+    padding: 20px 0;
+ }
+
+ .main__btn{
+         background: #10BD99;
+         color: #000;
+         max-width: 135px;
+         height: 56px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: auto;
+         margin-top: 24px;
+         border-radius: 8px;
+}
+
+
+.desc2{
+    padding-top: 20px;
+}
+
+.sub{
+    color: #000;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.green{
+    color: #10BD99;
+}
+.column{
+    background: #F3F6FA;
+}
+.column__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
